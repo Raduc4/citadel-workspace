@@ -63,7 +63,7 @@ args = ["tauri",  "dev"]
 dependencies = ["install_gui_deps"]
 
 [tasks.run-web]
-command = "yarn"
+command = "bun run"
 args = ["dev"]
 dependencies = ["install_gui_deps"]
 
